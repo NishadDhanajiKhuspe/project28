@@ -40,7 +40,7 @@ function setup() {
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
   //create launcherObject here
-  slingShot = new SlingShot(stone.body,{x: 200,y:100})
+  slingShot = new SlingShot(stoneObj.body,{x: 200,y:100})
 
 	Engine.run(engine);
 }
